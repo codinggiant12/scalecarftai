@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
   return (
     <section
       id="contact"
-      className="py-32 px-6 bg-gradient-to-b from-transparent to-purple-900/10"
+      className="py-32 px-6  from-transparent to-purple-900/10"
     >
       <motion.div
         initial={{ opacity: 0, y: 40 }}
@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
                 : "Initialize Project"}
             </span>
             {formState === "idle" && (
-              <div className="absolute top-0 -left-[100%] w-full h-full bg-gradient-to-r from-transparent via-black/5 to-transparent group-hover:left-[100%] transition-all duration-700" />
+              <div className="absolute top-0  w-full h-full  from-transparent via-black/5 to-transparent  transition-all duration-700" />
             )}
           </motion.button>
         </form>

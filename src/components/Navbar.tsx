@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
       className="fixed top-0 w-full z-50 border-b border-white/10 bg-[#030712]/50 backdrop-blur-xl px-6 py-4"
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+        <div className="text-2xl font-bold  from-purple-400 to-cyan-400 bg-clip-text text-transparent">
           NeuralAgency
         </div>
         <div className="hidden md:flex gap-8 text-sm font-medium text-slate-300">

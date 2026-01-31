@@ -45,7 +45,7 @@ const Services: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="bg-[#0f172a]/60 backdrop-blur-xl border border-white/10 p-10 rounded-[2rem] group transition-all"
+              className="bg-[#0f172a]/60 backdrop-blur-xl border border-white/10 p-10  group transition-all"
             >
               <div
                 className={`w-14 h-14 ${service.bg} rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform text-2xl ${service.color}`}

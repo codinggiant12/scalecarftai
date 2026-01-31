@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             className="text-6xl md:text-7xl font-extrabold leading-[1.1] mb-6 tracking-tight text-white"
           >
             AI Solutions That{" "}
-            <span className="bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+            <span className=" from-purple-400 to-cyan-400 bg-clip-text text-transparent">
               Scale Your Business.
             </span>
           </motion.h1>
@@ -87,11 +87,11 @@ const Hero: React.FC = () => {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="relative p-4 bg-white/5 backdrop-blur-xl rounded-[2.5rem] border border-white/10 overflow-hidden"
           >
-            <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/10 to-transparent pointer-events-none" />
+            <div className="absolute inset-0  from-purple-500/10 to-transparent pointer-events-none" />
             <img
               src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
               alt="AI Neural Concept"
-              className="rounded-[2rem] shadow-2xl"
+              className=" shadow-2xl"
             />
           </motion.div>
 

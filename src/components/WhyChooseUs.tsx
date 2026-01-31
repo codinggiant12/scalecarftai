@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const WhyChooseUs: React.FC = () => {
   return (
-    <section className="py-24 px-6 bg-white/[0.02]">
+    <section className="py-24 px-6 ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
           <h2 className="text-4xl font-bold mb-8">Why NeuralAgency?</h2>
@@ -28,7 +28,7 @@ const WhyChooseUs: React.FC = () => {
           </div>
         </div>
         <div className="relative">
-          <div className="aspect-square bg-gradient-to-br from-purple-600/20 to-cyan-600/20 rounded-3xl border border-white/10 flex items-center justify-center overflow-hidden">
+          <div className="aspect-square  from-purple-600/20 to-cyan-600/20 rounded-3xl border border-white/10 flex items-center justify-center overflow-hidden">
             {/* Replace with Lottie or Abstract Illustration */}
             <motion.div
               animate={{ rotate: 360 }}
