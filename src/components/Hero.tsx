@@ -1,10 +1,6 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
-import {
-  HiMiniSparkles,
-  HiOutlineArrowRight,
-  HiOutlineChatBubbleBottomCenterText,
-} from "react-icons/hi2";
+import { HiMiniSparkles, HiOutlineArrowRight } from "react-icons/hi2";
 interface NavbarProps {
   onContact: () => void;
 }

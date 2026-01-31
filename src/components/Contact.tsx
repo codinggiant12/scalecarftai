@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
   const [formState, setFormState] = useState<"idle" | "submitting" | "success">(
     "idle",
   );
-  const [selectedService, setSelectedService] = useState("AI Development");
+
   const [values, setValues] = useState({ fullName: "", email: "", vision: "" });
   const [errors, setErrors] = useState<FormErrors>({});
 
