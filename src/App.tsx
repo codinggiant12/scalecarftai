@@ -28,7 +28,7 @@ function App() {
         onContact={() => scrollToSection(contactRef)}
       />
       <section ref={homeRef} className="h-screen pt-24">
-        <Hero />
+        <Hero onContact={() => scrollToSection(contactRef)} />
       </section>
 
       <section ref={servicesRef} className="">

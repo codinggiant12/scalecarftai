@@ -5,8 +5,10 @@ import {
   HiOutlineArrowRight,
   HiOutlineChatBubbleBottomCenterText,
 } from "react-icons/hi2";
-
-const Hero: React.FC = () => {
+interface NavbarProps {
+  onContact: () => void;
+}
+const Hero: React.FC<NavbarProps> = ({ onContact }) => {
   // Animation variants for staggered text entry
   const containerVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
@@ -63,15 +65,18 @@ const Hero: React.FC = () => {
             variants={containerVariants}
             className="flex flex-wrap gap-4"
           >
-            <button className="group relative flex items-center gap-2 bg-purple-600 hover:bg-purple-500 text-white px-8 py-4 rounded-2xl font-bold transition-all transform hover:scale-105 shadow-lg shadow-purple-500/20">
+            <button
+              onClick={onContact}
+              className="group relative flex items-center gap-2 bg-purple-600 hover:bg-purple-500 text-white px-8 py-4 rounded-2xl font-bold transition-all transform hover:scale-105 shadow-lg shadow-purple-500/20"
+            >
               Start Your AI Journey
               <HiOutlineArrowRight className="group-hover:translate-x-1 transition-transform" />
             </button>
 
-            <button className="flex items-center gap-2 bg-white/5 border border-white/10 backdrop-blur-md text-white px-8 py-4 rounded-2xl font-bold hover:bg-white/10 transition-all">
+            {/* <button className="flex items-center gap-2 bg-white/5 border border-white/10 backdrop-blur-md text-white px-8 py-4 rounded-2xl font-bold hover:bg-white/10 transition-all">
               <HiOutlineChatBubbleBottomCenterText className="text-xl" />
               Talk to an Expert
-            </button>
+            </button> */}
           </motion.div>
         </motion.div>
 

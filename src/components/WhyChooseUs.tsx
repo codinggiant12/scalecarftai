@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { LuChartPie, LuShieldCheck, LuZap, LuUsers } from "react-icons/lu";
+import { FaStar } from "react-icons/fa6";
 
 interface Benefit {
   title: string;
@@ -48,8 +49,7 @@ const WhyChooseUs: React.FC = () => {
             className="flex flex-col justify-center"
           >
             <div className="inline-flex items-center gap-2 text-purple-400 font-bold tracking-[0.3em] text-[10px] uppercase mb-8">
-              <span className="w-12 h-[1px] bg-purple-500/50"></span>{" "}
-              Architecture & Trust
+              <FaStar className="   text-purple-400" /> Architecture & Trust
             </div>
 
             <h2 className="text-5xl md:text-7xl font-extrabold mb-8 tracking-tighter leading-[1.05]">

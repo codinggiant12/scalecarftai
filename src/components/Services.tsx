@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaStar } from "react-icons/fa6";
 import {
   LuBrainCircuit,
   LuBot,
@@ -122,7 +123,7 @@ const Services: React.FC = () => {
               viewport={{ once: true }}
               className="flex items-center gap-2 text-purple-400 font-bold tracking-[0.2em] text-[10px] uppercase mb-4"
             >
-              <span className="w-8 h-[1px] bg-purple-400"></span> Core Expertise
+              <FaStar className="   text-purple-400" /> Core Expertise
             </motion.div>
             <h2 className="text-4xl md:text-6xl font-extrabold tracking-tighter leading-tight">
               Future-proof <span className="text-gradient">Intelligence.</span>
